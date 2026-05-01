@@ -1,42 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Web Browsers Guide</title>
+    <meta charset="utf-8">
+    <title>Web Tech - Home</title>
+    <!-- Moves up to parent folder to find 'css' folder -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-
-<div class="container">
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="engines.html">Engines</a>
-        <a href="security.html">Security</a>
-    </nav>
-
     <header>
-        <h1>Web browsers</h1>
-        <div class="icon-row">
-            <img src="chrome-logo.png" alt="Chrome">
-            <img src="safari-logo.png" alt="Safari">
-            <img src="firefox-logo.png" alt="Firefox">
-        </div>
+        <h1>Web Development Basics</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- Moves up then down into 'terms' folder -->
+                <li><a href="../terms/browser.html">Browser</a></li>
+                <li><a href="../terms/http.html">HTTP</a></li>
+                <li><a href="../terms/dns.html">DNS</a></li>
+                <li><a href="../terms/tcp-ip.html">TCP/IP</a></li>
+                <li><a href="../terms/web-eras.html">Web Eras</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="content-section">
-        <p><strong>Definition:</strong> Web browsers are software applications used to access the internet...</p>
-        
-        <h2>Examples</h2>
-        <ul>
-            <li>Google Chrome</li>
-            <li>Mozilla Firefox</li>
-            <li>Microsoft Edge</li>
-        </ul>
-
-        <h2>How it Works</h2>
-        <p>Web browsers are software applications used to access the internet...</p>
-    </div>
-</div>
-
+    <main>
+        <section class="content-section">
+            <h2>Welcome to the Web Glossary</h2>
+            <p>Explore the links above to learn about the core technologies of the internet.</p>
+        </section>
+    </main>
 </body>
 </html>
